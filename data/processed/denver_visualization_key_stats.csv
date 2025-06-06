@@ -1,0 +1,8 @@
+Statistic,Value,Interpretation
+Crime-Program Correlation,0.059,Weak positive - programs deployed reactively
+Crime-Poverty Correlation,0.621,Stronger relationship than programs
+Crime-Education Correlation,-0.156,Weak negative - education helps slightly
+Average Crime Rate (per 1000),483.7,Baseline for comparison
+Average Programs (per 1000),37.5,Current distribution
+High Risk Neighborhoods,6,Need immediate intervention
+Model Neighborhoods,5,Learn from these successes

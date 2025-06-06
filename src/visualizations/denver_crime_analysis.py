@@ -32,20 +32,21 @@ def load_count_data():
     
     # Load the three essential files
     try:
-        data['crime'] = pd.read_csv('neighborhood_crime_counts.csv')
+        data['crime'] = pd.read_csv('./data/processed/neighborhood_crime_counts.csv')
         print(f"✓ Loaded neighborhood_crime_counts.csv: {data['crime'].shape}")
-    except:
+    except Exception as e:
         print("✗ Could not load neighborhood_crime_counts.csv")
+        print(e)
         return None
     
     try:
-        data['programs'] = pd.read_csv('school_programs_counts.csv')
+        data['programs'] = pd.read_csv('./data/processed/school_programs_counts.csv')
         print(f"✓ Loaded school_programs_counts.csv: {data['programs'].shape}")
     except:
         print("✗ Could not load school_programs_counts.csv")
     
     try:
-        data['crime_detail'] = pd.read_csv('crime_counts.csv')
+        data['crime_detail'] = pd.read_csv('./data/processed/crime_counts.csv')
         print(f"✓ Loaded crime_counts.csv: {data['crime_detail'].shape}")
     except:
         print("✗ Could not load crime_counts.csv")
