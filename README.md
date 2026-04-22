@@ -1,6 +1,6 @@
 # Denver Data Project
 ## University of Denver Comp_4447
-Stuti, Moose, and Sam
+Stuti, Namoos, and Sam
 
 ### Data Source
 We pulled most of the data for this project from the [Denver Open Data Catalog](https://opendata-geospatialdenver.hub.arcgis.com/).
